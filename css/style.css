@@ -1,0 +1,84 @@
+
+/* Attrubutes selectoe */
+
+input[type="text"] {
+ 
+ 
+}
+input[type="text"]:active {
+ 
+}
+*{
+
+    margin:0;
+    padding:0;
+}
+.navbar h3{
+
+    width: 20%;
+    vertical-align: middle;
+    float: left;
+   
+}
+.navbar{
+
+    background-color: #b6b1b1;
+    color: white;
+}
+.navbar > ul{
+
+    list-style: none;
+    width: 80%; 
+    float: left;
+}
+.navbar ul > li a{
+
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    display: block;
+    /* علشان اقدر ازود ال padding خليته بلوك */
+}
+.navbar > ul li{
+
+    display: inline-block;
+    position: relative;
+}
+.clear{
+
+    clear:both
+}
+.navbar >ul li ul{
+
+    position: absolute;
+    display: none;
+}
+.navbar >ul li ul li a{
+    color: black;
+    
+}
+.navbar >ul li a:active +ul{
+
+display: block;
+
+}
+form input , label ,select{
+
+
+    display:block ;
+    width: 50vw;
+    height: 30px;
+   border-radius: 5px;
+    margin: 10px;
+}
+
+input , select{
+    background-color: rgb(27, 170, 155);
+}
+form input:focus{
+    background-color: azure;
+}
+input{
+  background-image: url('searchicon.png');
+
+}
